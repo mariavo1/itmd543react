@@ -4,7 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <section id="projects" className="scroll-mt-28">
+    <section id="projects" className="scroll-mt-28 mb-28">
         <SectionHeading>My projects</SectionHeading>
 
         <p>
