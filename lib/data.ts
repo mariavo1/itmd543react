@@ -44,30 +44,6 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
-  {
-    title: "HTML",
-    description:
-      "I started learning HTML back in highschool and had an oppurtunity to create a website for a local business.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: htmlImg,
-  },
-  {
-    title: "CSS",
-    description:
-      "CSS goes hand in hand with HTML and I was able to utilize skills I learned to create a styled webpage.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: cssImg,
-  },
-  {
-    title: "Javascript",
-    description:
-      "I know my limits with JavaScript, but I'm still learning.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: javascriptImg,
-  },
-] as const;
-
 export const skillsData = [
   "HTML",
   "CSS",
