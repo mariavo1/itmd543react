@@ -4,7 +4,7 @@ import SectionHeading from './section-heading'
 export default function About() {
   return (
     <section className= "mb-28 max-w-[45rem] text-center leading-8 sm:mb-40">
-        <SectionHeading>About Me</SectionHeading>
+        <h2 className="text-3xl font-medium mb-8 pt-20 mt-20">About Me</h2>
         <p className="mb-3">
             After graduating at Mather High School,{" "}
             I decided to continue into programming as I had taken{" "} 
