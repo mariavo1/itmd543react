@@ -16,12 +16,12 @@ export default function Intro() {
             </div>
         </div>
 
-        <p className="mb-10 mt-4 px-4 text-1xl font-small leading-[1.5] sm:text-3xl">
+        <h1 className="mb-10 mt-4 px-4 text-1xl font-small leading-[1.5] sm:text-3xl">
             Hello, I'm Maria Vo. I am a{" "}
             student at IIT learning{" "}
             to become a front-end web developer. My focus is{" "}
             <span className="underline">HTML, CSS, and JavaScript.</span>
-        </p>
+        </h1>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
             <Link href="#contact" className="group bg-pink-300 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-pink-500 active:scale-105 transition">Contact Me Here
