@@ -16,7 +16,7 @@ export default function Intro() {
             </div>
         </div>
 
-        <h1 className="mb-10 mt-4 px-4 text-1xl font-small leading-[1.5] sm:text-3xl">
+        <h1 className="mb-10 mt-4 px-4 text-1xl font-medium leading-[1.5] sm:text-3xl">
             Hello, I'm Maria Vo. I am a{" "}
             student at IIT learning{" "}
             to become a front-end web developer. My focus is{" "}
