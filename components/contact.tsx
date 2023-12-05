@@ -13,7 +13,7 @@ export default function Contact() {
         <form className="mt-10 flex flex-col">
             <input className="h-14 rounded-lg" type="email" />
             <textarea className="h-52 my-3 rounded-lg"/>
-            <button className="bg-pink-200" type="submit">Submit</button>
+            <button className="bg-pink-200  hover:bg-pink-500 p-4 mt-3 rounded-full" type="submit">Submit</button>
         </form>
     </section>
   )
