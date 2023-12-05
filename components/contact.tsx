@@ -11,9 +11,10 @@ export default function Contact() {
         </p>
 
         <form className="mt-10 flex flex-col">
-            <input className="h-14 rounded-lg" type="email" />
-            <textarea className="h-52 my-3 rounded-lg"/>
-            <button className="bg-pink-200  hover:bg-pink-500 p-4 mt-3 rounded-full" type="submit">Submit</button>
+            <input className="h-14 rounded-lg px-4" type="email" placeholder="Your email example@gmail.com"/>
+            <textarea className="h-52 my-3 rounded-lg p-4" placeholder="Write your message here"/>
+            <button className="bg-pink-200 hover:bg-pink-500 p-4 mt-3 rounded-full text-white outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer" 
+            type="submit">Submit</button>
         </form>
     </section>
   )

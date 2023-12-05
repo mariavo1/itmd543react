@@ -33,17 +33,6 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Student at Illinois Institute of Technology",
-    location: "Chicago, IL",
-    description:
-      "Last year at IIT studying to become a front-end web developer",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-] as const;
-
 export const skillsData = [
   "HTML",
   "CSS",
